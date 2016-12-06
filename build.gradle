@@ -31,12 +31,13 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-   /* compile 'com.jakewharton:butterknife:8.4.0'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'*/
-    compile rootProject .ext.dependencies[ "design"]
-    compile rootProject .ext.dependencies[ "appcompat-v7"]
-    compile rootProject .ext.dependencies[ "recyclerview-v7"]
-    compile rootProject .ext.dependencies[ "buttrnife"]
-    compile rootProject .ext.dependencies[ "cardview-v7"]
+ 
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile rootProject .ext.dependencies["design"]
+    compile rootProject .ext.dependencies["appcompat-v7"]
+    compile rootProject .ext.dependencies["recyclerview-v7"]
+    compile rootProject .ext.dependencies["buttrnife"]
+    compile rootProject .ext.dependencies["cardview-v7"]
+    compile rootProject .ext.dependencies["glide"]
     testCompile 'junit:junit:4.12'
 }
