@@ -11,10 +11,13 @@ ext {
 
     dependencies = [
             //android.support
-            "appcompat-v7"   : "com.android.support:appcompat-v7:${android_support_version}",
-            "design"         : "com.android.support:design:${android_support_version}",
-            "recyclerview-v7" : "com.android.support:recyclerview-v7:${android_support_version}",
-            "cardview-v7" : "com.android.support:cardview-v7:${android_support_version}",
-            "buttrnife" : "com.jakewharton:butterknife:8.4.0",
+            annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+            compile rootProject .ext.dependencies["design"]
+            compile rootProject .ext.dependencies["appcompat-v7"]
+            compile rootProject .ext.dependencies["recyclerview-v7"]
+            compile rootProject .ext.dependencies["buttrnife"]
+            compile rootProject .ext.dependencies["cardview-v7"]
+            compile rootProject .ext.dependencies["glide"]
+            testCompile 'junit:junit:4.12'
     ]
 }
