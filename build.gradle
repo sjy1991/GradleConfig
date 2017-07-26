@@ -20,6 +20,8 @@ dependencies {
     compile rootProject .ext.dependencies["appcompat-v7"]
     compile rootProject .ext.dependencies["cardview-v7"]
     compile rootProject .ext.dependencies["glide"]
+    compile rootProject .ext.dependencies["palette-v7"]
+    compile rootProject .ext.dependencies["gson"]
     debugCompile rootProject .ext.dependencies["debug-db"]
     testCompile 'junit:junit:4.12'
 }
