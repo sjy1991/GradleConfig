@@ -20,6 +20,6 @@ dependencies {
     compile rootProject .ext.dependencies["appcompat-v7"]
     compile rootProject .ext.dependencies["cardview-v7"]
     compile rootProject .ext.dependencies["glide"]
-    debugCompile 'com.amitshekhar.android:debug-db:1.0.1'
+    debugCompile rootProject .ext.dependencies["debug-db"]
     testCompile 'junit:junit:4.12'
 }
