@@ -4,4 +4,5 @@
 # ECTranslation
 # GsonFormat
 # LayoutCreator
+# Parcelable code generator
 # gradle.properties 为加速gradle编译配置文件 放置在.gradle目录下
